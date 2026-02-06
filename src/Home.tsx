@@ -1,10 +1,16 @@
 import { useState } from 'react'
 import './App.css'
 
-const navItems = [
-  { id: 'dashboard', label: 'Dashboard' },
-  { id: 'usuarios', label: 'Usuarios' },
-  { id: 'permissoes', label: 'Permissoes' },
+type PageKey = 'home' | 'users'
+
+type HomeProps = {
+  activePage: PageKey
+  onNavigate: (page: PageKey) => void
+}
+
+const navItems: Array<{ id: PageKey; label: string }> = [
+  { id: 'home', label: 'Home' },
+  { id: 'users', label: 'Usuarios' },
 ]
 
 const recentActivity = [
@@ -19,8 +25,7 @@ const teamMembers = [
   { name: 'Carla Costa', role: 'Leitor', status: 'Bloqueado' },
 ]
 
-function Home() {
-  const [activeNav, setActiveNav] = useState('dashboard')
+function Home({ activePage, onNavigate }: HomeProps) {
   const [isCollapsed, setIsCollapsed] = useState(false)
 
   return (
@@ -46,8 +51,8 @@ function Home() {
           {navItems.map((item) => (
             <button
               key={item.id}
-              className={`nav-item ${activeNav === item.id ? 'active' : ''}`}
-              onClick={() => setActiveNav(item.id)}
+              className={`nav-item ${activePage === item.id ? 'active' : ''}`}
+              onClick={() => onNavigate(item.id)}
               type="button"
             >
               <span className="nav-dot" />
