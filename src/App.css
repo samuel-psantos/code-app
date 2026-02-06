@@ -16,7 +16,7 @@
   padding: 2rem 1.5rem;
   background: var(--surface);
   border-right: 1px solid var(--border);
-  box-shadow: 12px 0 28px rgba(102, 93, 162, 0.06);
+  box-shadow: 12px 0 28px rgba(243, 102, 51, 0.06);
 }
 
 .sidebar.collapsed {
@@ -43,7 +43,7 @@
 
 .sidebar-toggle:hover {
   color: var(--text-primary);
-  border-color: rgba(102, 93, 162, 0.4);
+  border-color: rgba(243, 102, 51, 0.4);
 }
 
 .sidebar.collapsed .brand-text {
@@ -62,7 +62,7 @@
   place-items: center;
   font-weight: 700;
   letter-spacing: 0.04em;
-  background: linear-gradient(135deg, rgba(102, 93, 162, 0.25), var(--primary));
+  background: linear-gradient(135deg, rgba(243, 102, 51, 0.25), var(--primary));
   color: #ffffff;
 }
 
@@ -121,13 +121,13 @@
 }
 
 .nav-item:hover {
-  background: rgba(102, 93, 162, 0.08);
-  border-color: rgba(102, 93, 162, 0.25);
+  background: rgba(243, 102, 51, 0.08);
+  border-color: rgba(243, 102, 51, 0.25);
 }
 
 .nav-item.active {
-  background: rgba(102, 93, 162, 0.14);
-  border-color: rgba(102, 93, 162, 0.4);
+  background: rgba(243, 102, 51, 0.14);
+  border-color: rgba(243, 102, 51, 0.4);
 }
 
 .nav-item.active .nav-dot {
@@ -138,8 +138,8 @@
   margin-top: auto;
   padding: 1.2rem;
   border-radius: 18px;
-  background: linear-gradient(160deg, rgba(102, 93, 162, 0.14), rgba(210, 202, 242, 0.3));
-  border: 1px solid rgba(102, 93, 162, 0.25);
+  background: linear-gradient(160deg, rgba(243, 102, 51, 0.14), rgba(243, 133, 83, 0.3));
+  border: 1px solid rgba(243, 102, 51, 0.25);
 }
 
 .sidebar.collapsed .sidebar-card {
@@ -197,7 +197,7 @@
   border-radius: 14px;
   background: var(--surface-alt);
   border: 1px solid var(--border);
-  box-shadow: 0 10px 20px rgba(102, 93, 162, 0.06);
+  box-shadow: 0 10px 20px rgba(243, 102, 51, 0.06);
 }
 
 .search input {
@@ -228,13 +228,13 @@
 }
 
 .primary {
-  background: linear-gradient(135deg, rgba(102, 93, 162, 0.85), var(--primary-strong));
+  background: linear-gradient(135deg, rgba(243, 102, 51, 0.85), var(--primary-strong));
   color: #ffffff;
 }
 
 .primary:hover {
   transform: translateY(-1px);
-  box-shadow: 0 10px 22px rgba(102, 93, 162, 0.18);
+  box-shadow: 0 10px 22px rgba(243, 102, 51, 0.18);
 }
 
 .ghost {
@@ -244,7 +244,7 @@
 }
 
 .ghost:hover {
-  border-color: rgba(102, 93, 162, 0.5);
+  border-color: rgba(243, 102, 51, 0.5);
 }
 
 .stats {
@@ -261,7 +261,7 @@
   display: flex;
   flex-direction: column;
   gap: 0.4rem;
-  box-shadow: 0 14px 24px rgba(102, 93, 162, 0.08);
+  box-shadow: 0 14px 24px rgba(243, 102, 51, 0.08);
 }
 
 .stat-card h2 {
@@ -311,7 +311,7 @@
   flex-direction: column;
   gap: 1rem;
   min-height: 420px;
-  box-shadow: 0 18px 30px rgba(102, 93, 162, 0.08);
+  box-shadow: 0 18px 30px rgba(243, 102, 51, 0.08);
 }
 
 .kanban-header {
@@ -348,7 +348,7 @@
 
 .kanban-empty {
   border-radius: 14px;
-  border: 1px dashed rgba(102, 93, 162, 0.35);
+  border: 1px dashed rgba(243, 102, 51, 0.35);
   color: var(--text-muted);
   padding: 1.2rem;
   text-align: center;
@@ -357,7 +357,7 @@
 
 .user-card {
   background: #fbfbff;
-  border: 1px solid rgba(102, 93, 162, 0.12);
+  border: 1px solid rgba(243, 102, 51, 0.12);
   border-radius: 16px;
   padding: 0.9rem 1rem;
   display: flex;
@@ -395,7 +395,7 @@
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  box-shadow: 0 18px 30px rgba(102, 93, 162, 0.08);
+  box-shadow: 0 18px 30px rgba(243, 102, 51, 0.08);
 }
 
 .panel-header {

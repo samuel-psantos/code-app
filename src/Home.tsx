@@ -82,7 +82,7 @@ function Home({ activePage, onNavigate }: HomeProps) {
               <span className="search-hint">Ctrl + K</span>
             </div>
             <button className="primary" type="button">
-              Novo usuario
+              Novo cadastro
             </button>
           </div>
         </header>
